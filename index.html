@@ -22,7 +22,7 @@
       crossorigin="anonymous"
     />
     <!-- Extra CSS -->
-    <link rel="stylesheet" href="assets/css/theme.css?ver=210" />
+    <link rel="stylesheet" href="assets/css/theme.css" />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,7 +45,10 @@
             <div class="header-wrap">
               <!-- Logo  -->
               <div class="header-logo logo">
-                <a href="#" class="navbar-logo fs-1 fst-italic fw-bold"
+                <a
+                  style="color: #f42f54"
+                  href="#"
+                  class="navbar-logo fs-1 fst-italic fw-bold"
                   >Wahyu<span class="">Artha</span>.</a
                 >
               </div>
@@ -66,16 +69,23 @@
                 <nav class="header-menu" id="header-menu">
                   <ul class="menu">
                     <li class="menu-item">
-                      <a class="" href="#">Home</a>
+                      <a class="menu-link nav-link menu-toggle" href="#home"
+                        >Home</a
+                      >
                     </li>
                     <li class="menu-item">
-                      <a class="menu-link nav-link menu-toggle" href="#"
+                      <a class="menu-link nav-link menu-toggle" href="#about"
                         >About Me</a
                       >
                     </li>
                     <li class="menu-item">
                       <a class="menu-link nav-link menu-toggle" href="#"
                         >My Projects</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                      <a class="menu-link nav-link menu-toggle" href="#"
+                        >My Skills</a
                       >
                     </li>
                     <li class="menu-item">
@@ -96,15 +106,24 @@
           </div>
         </div>
         <!-- .header-main  -->
-        <div class="banner banner-fs has-gfx tc-light">
+        <div class="banner banner-fs has-gfx tc-light" id="home">
           <div class="nk-block nk-block-sm nk-block-header my-auto">
             <div class="container container-xxl pt-5">
               <div
                 class="row align-items-center justify-content-center justify-content-lg-between gutter-vr-30px"
               >
                 <div class="col-lg-6 order-lg-last">
-                  <div class="banner-gfx banner-gfx-auto">
-                    <img src="/assets/images/waa1.png" alt="header" />
+                  <!-- <div class="nk-circle-animation nk-df-center fast">
+                    <img style="margin-left: 7rem; margin-top: 4.8rem;" src="/assets/images/arta2.png" alt="header" />
+                  </div> -->
+                  <div
+                    class="d-flex align-items-center justify-content-center banner-gfx banner-gfx-auto nk-circle-animation fast"
+                  >
+                    <img
+                      id="gmbr"
+                      src="/assets/images/arta3.png"
+                      alt="header"
+                    />
                   </div>
                 </div>
                 <!-- .col -->
@@ -112,13 +131,8 @@
                   class="col-xl-5 col-lg-6 col-sm-10 text-center text-lg-start"
                 >
                   <div class="banner-caption">
-                    <h1 class="title title-lg ttu">Selamat Datang.</h1>
+                    <h1 class="title title-xl ttu">Welcome.</h1>
                     <p class="lead">Let me introduce myself</p>
-                    <div class="cpn-action">
-                      <a class="btn btn-primary btn-round" href="#"
-                        >PRIVATE SALE</a
-                      >
-                    </div>
                   </div>
                 </div>
                 <!-- .col -->
@@ -128,81 +142,45 @@
           </div>
         </div>
       </header>
+
       <main class="nk-pages tc-light">
         <!-- // -->
-        <section class="section" id="ecosystems">
+        <section class="section" id="about">
           <div class="container">
             <div class="row justify-content-center text-center">
               <div class="col-lg-6">
                 <div class="section-head section-head-s2">
-                  <h2 class="title title-xl" title="Core Ecosystems">
-                    ECOSYSTEMS
-                  </h2>
+                  <h2 class="title title-xl" title="About Me">About Me</h2>
                 </div>
               </div>
             </div>
           </div>
           <div class="container container-xxl">
-            <div class="nk-block">
-              <div class="row text-center align-items-lg-start gutter-vr-40px">
-                <div class="col-lg-3 col-sm-6">
-                  <div class="feature feature-s6 feature-s6-1">
-                    <div class="feature-text">
-                      <h5 class="title title-sm ttu">ONE MARKETPLACE</h5>
-                      <p>
-                        One International Marketplace that combines online store
-                        and services around the world. Buy any goods or services
-                        with our tokens.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                  <div class="feature feature-s6 feature-s6-2">
-                    <div class="feature-text">
-                      <h5 class="title title-sm ttu">Transparency and Trust</h5>
-                      <p>
-                        One International Marketplace that combines online store
-                        and services around the world. Buy any goods or services
-                        with our tokens.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                  <div class="feature feature-s6 feature-s6-3">
-                    <div class="feature-text">
-                      <h5 class="title title-sm ttu">
-                        Blockchain Based Profiles
-                      </h5>
-                      <p>
-                        One International Marketplace that combines online store
-                        and services around the world. Buy any goods or services
-                        with our tokens.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                  <div class="feature feature-s6 feature-s6-4">
-                    <div class="feature-text">
-                      <h5 class="title title-sm ttu">PAYMENT FLEXIBILITY</h5>
-                      <p>
-                        One International Marketplace that combines online store
-                        and services around the world. Buy any goods or services
-                        with our tokens.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+            <div class="row d-flex align-items-center justify-content-center">
+              <div class="col-md-8">
+                <h3>My Name is Wahyu Artha Anugrah</h3>
+                <p>
+                  Saya adalah seorang mahasiswa S1 pendidikan teknik informatika
+                  di universitas negeri yogyakarta yang berumur 20 tahun. Saya
+                  tinggal di sebuah desa di Banjarnegara yaitu desa Gemuruh,
+                  hobi saya adalah bermain computer, hampir setiap harinaya
+                  mengoprasikan computer, entah untuk belajar ataupun mencari
+                  informasi.
+                </p>
+                <p class="p2">
+                  Alasan saya memilih prodi PTI ini karena saya ingin menjadi
+                  programmer professional dan bisa juga bisa menjadi tenaga
+                  pendidik yang profesional.
+                </p>
               </div>
-              <div class="bg-image bg-contain bg-bottom-center bg-ecosystems">
-                <img src="images/globe-particle.png" alt="globe" />
+              <div class="col-md-4">
+                <img src="/assets/images/waa1107.png" alt="About Me" />
               </div>
             </div>
           </div>
         </section>
         <!-- // -->
+        
         <section class="section" id="platform">
           <div class="container">
             <div class="row justify-content-center text-center">
@@ -2500,11 +2478,11 @@
       </div>
     </div>
     <!-- preloader -->
-    <div class="preloader preloader-alt no-split">
+    <!-- <div class="preloader preloader-alt no-split">
       <span class="spinner spinner-alt"
         ><img class="spinner-brand" src="images/logo-s2-white.png" alt=""
       /></span>
-    </div>
+    </div> -->
     <!-- JavaScript -->
     <script src="assets/js/jquery.bundle.js?ver=210"></script>
     <script src="assets/js/scripts.js?ver=210"></script>

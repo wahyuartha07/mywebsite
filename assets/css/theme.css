@@ -2,3 +2,16 @@ body{
   font-family: "poppins", sans-serif !important;
 
 }
+
+
+@media screen and (max-width: 450px) {
+  #gmbr{
+    width: 90%;
+    margin-bottom: 0.4rem;
+  }
+}
+
+#gmbr{
+  width: 80%;
+    margin-top: 1.5rem;
+}

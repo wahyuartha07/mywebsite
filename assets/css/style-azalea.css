@@ -5730,7 +5730,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .team-photo-s2 { max-width: 90%; }
 
-.team-photo-s2:after { position: absolute; left: 0; top: 0; content: ''; height: 100%; width: 100%; background: rgba(244, 47, 84, 0.4); border-radius: 6px; z-index: 1; }
+.team-photo-s2:after { position: absolute; left: 0; top: 0; content: ''; height: 100%; width: 100%;  border-radius: 6px; z-index: 1; }
 
 .team-photo-s3:after { position: absolute; left: 0; top: 0; content: ''; height: 100%; width: 100%; background: linear-gradient(to top left, #f42f54 0%, #f8aa38 100%); border-radius: 6px; z-index: 1; opacity: .2; }
 

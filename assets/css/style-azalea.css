@@ -3270,7 +3270,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .owl-prev:after { content: '\ff1c'; }
 
-.owl-rtl .owl-prev:after { content: '\e649'; }
+.owl-rtl .owl-prev:after { content: '\ff1c'; }
 
 .carousel-nav-s1 .owl-prev:after { content: '\f060'; }
 
@@ -3282,7 +3282,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .owl-next:after { content: '\ff1e'; }
 
-.owl-rtl .owl-next:after { content: '\e64a'; }
+.owl-rtl .owl-next:after { content: '\ff1e'; }
 
 .carousel-nav-s1 .owl-next:after { content: '\f061'; }
 

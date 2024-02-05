@@ -3268,7 +3268,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .carousel-navs-middle .owl-nav { padding-top: 0; }
 
-.owl-prev:after { content: '\e64a'; }
+.owl-prev:after { content: '\ff1c'; }
 
 .owl-rtl .owl-prev:after { content: '\e649'; }
 
@@ -3280,7 +3280,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .carousel-navs-fill .owl-prev:after { content: '\f104'; }
 
-.owl-next:after { content: '\e649'; }
+.owl-next:after { content: '\ff1e'; }
 
 .owl-rtl .owl-next:after { content: '\e64a'; }
 

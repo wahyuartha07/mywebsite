@@ -17999,7 +17999,7 @@ hr + .nk-block {
 }
 
 .chart-data-item:after {
-  right: 0;
+  right: 6rem;
   border-radius: 0 6px 6px 0;
   border-left: none;
 }
